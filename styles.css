@@ -1,0 +1,45 @@
+html, body{
+	margin:0;
+	padding:0;
+/*Allows divs to reach sides of windows*/
+}
+
+.profile_pic{
+	/*TODO*/
+}
+
+.header{
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: red; 	
+}
+
+.box {
+	background-color: black;
+	float:left;
+	width: 33%;
+}
+
+.clear{
+	clear:both;
+}
+
+
+
+.bio{
+	text-align: center;
+	background:rgba(255,1,1,0.5);
+}
+
+.contact{
+	text-align: center;
+	background:rgba(1,255,1,0.5);
+}
+
+.projects{
+	font-size: 32px;
+	text-align: center;
+	background:rgba(1,1,255,0.5);
+
+}
