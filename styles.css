@@ -1,7 +1,13 @@
 html, body{
 	margin:0;
 	padding:0;
+	height: 100%; 
+	width: 100%;
 /*Allows divs to reach sides of windows*/
+}
+
+a:link{
+	color: hotpink;
 }
 
 .profile_pic{
@@ -9,27 +15,37 @@ html, body{
 }
 
 .header{
+	align-items : center;
 	width: 100%;
 	text-align: center;
-	background-color: black;
+	height: 25%;
 	color: red; 	
 }
 
 .box {
-	background-color: black;
+	background:rgba(1,1,1,0.8);
 	float:left;
 	width: 33%;
-}
+	height: 100%;
+	vertical-align: middle;
+
+} 
 
 .clear{
 	clear:both;
 }
 
-
+.end{
+	height:10%;
+	color:black;
+	background:rgba(1,1,1,0.5);
+	width: 100%;
+}
 
 .bio{
 	text-align: center;
 	background:rgba(255,1,1,0.5);
+	height: 2000px;
 }
 
 .contact{
