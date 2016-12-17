@@ -6,9 +6,7 @@ html, body{
 /*Allows divs to reach sides of windows*/
 }
 
-a:link{
-	color: hotpink;
-}
+
 
 .profile_pic{
 	/*TODO*/
@@ -31,9 +29,19 @@ a:link{
 
 } 
 
+a:link {
+	color:white;
+}
+a:visited {
+	color:white;
+}
+/*Color of links*/
+
+
 .clear{
 	clear:both;
 }
+/*Clears float*/
 
 .end{
 	height:10%;
