@@ -3,9 +3,11 @@ html, body{
 	padding:0;
 	height: 100%; 
 	width: 100%;
-/*Allows divs to reach sides of windows*/
+		text-align: center;
+	vertical-align: middle;
+	line-height: 90px; 
 }
-
+/*Allows divs to reach sides of windows and vertically aligns text*/
 
 
 .profile_pic{
@@ -25,7 +27,6 @@ html, body{
 	float:left;
 	width: 33%;
 	height: 100%;
-	vertical-align: middle;
 
 } 
 
