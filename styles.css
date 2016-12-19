@@ -41,14 +41,15 @@ h2{
 }
 
 .box {
+	background:rgba(1,1,1,0.8);
 	float:left;
-	width: 33%;
+	width: 33.1%;
 	height: 100%;
 	border-style: solid;
     border-width: .1%;
     border-left-width: 0px;
     border-right-width: .01%;
-    border-color: rgba(96,127,211,var(--transparency));
+    border-color: rgba(255,167,99,var(--transparency));
 } 
 
 .profile_pic{
