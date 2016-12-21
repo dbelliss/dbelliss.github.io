@@ -99,10 +99,6 @@ a:visited {
 	
 }
 
-.icon{
-	height:20px;
-	margin-bottom: -5px;
-}
 
 .projects{
 	font-size: 32px;
@@ -139,6 +135,11 @@ a:visited {
 	clear:both;
 }
 /*Clears float*/
+.icon{
+	height:20px;
+	margin-bottom: -4px;
+}
+
 
 .end{
 	height:10%;
