@@ -115,6 +115,11 @@ a:visited {
 	text-align: center;
 }
 
+.projectContainer{
+	padding-left:50px;
+	padding-right:50px;
+}
+
 .projectImage{
 	height: 50%;
 	width: auto;
@@ -122,6 +127,12 @@ a:visited {
 	margin:auto;
 	border-radius: 25px;
     border: 2px solid #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.projectDescription{
 
 }
 
@@ -135,11 +146,11 @@ a:visited {
 	clear:both;
 }
 /*Clears float*/
+
 .icon{
 	height:20px;
 	margin-bottom: -4px;
 }
-
 
 .end{
 	height:10%;
@@ -154,7 +165,6 @@ a:visited {
     bottom: 0;
     right: 0;
 }
-
 
 /*
 http://paletton.com/#uid=53g0y0kjCJ+8WWveQQDnOCBsNvZ
