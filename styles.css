@@ -70,15 +70,15 @@ a:link {
 	color:black;
 	text-decoration:none
 }
+
 a:visited {
 	color:black;
-text-decoration:none
+	text-decoration:none
 }
 /*Color of links*/
 
 
-
-/*adds blank space at bottom of page*/
+/*Hover must come after link and visited*/
 
 .bio{
 	text-align: center;
@@ -86,8 +86,8 @@ text-decoration:none
 }
 
 .biotext{
-	margin:20%;
 	font-size: 32px;
+	text-indent: 110px;
 }
 
 .icon{
@@ -135,16 +135,18 @@ text-decoration:none
 	height:10%;
 	background:rgba(1,1,1,.1);
 	width: 100%;
-	 	position: relative;
+	position: relative;
 }
+/*Space at bottom of page*/
 
 .photoCred{
-
-
-	 position:absolute;
+	position:absolute;
     bottom: 0;
     right: 0;
 }
+
+
 /*
 http://paletton.com/#uid=53g0y0kjCJ+8WWveQQDnOCBsNvZ
 */
+
