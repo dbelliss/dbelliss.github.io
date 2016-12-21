@@ -2,23 +2,28 @@
   --transparency: .8;
 }
 
+@font-face {
+    font-family: RalewayBold;
+    src: url(Fonts/Raleway-ExtraBold.ttf);
+    font-family: Raleway;
+    src: url(Fonts/Raleway-Regular.ttf);
+}
+
 html, body{
 	margin:0;
 	padding:0;
 	height: 100%; 
 	width: 100%;
-	font-family: Arial, Helvetica, sans-serif ;
+	font-family: Raleway, Arial, Helvetica, sans-serif ;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 }
 /*Allows divs to reach sides of windows and vertically aligns text*/
-h1{
-	font:sans-serif;
-	font-size: 132px;
-}
+
 
 h2{
+	font-family: RalewayBold, Arial;
 	display:inline;
 }
 
@@ -130,8 +135,16 @@ text-decoration:none
 	height:10%;
 	background:rgba(1,1,1,.1);
 	width: 100%;
+	 	position: relative;
 }
 
+.photoCred{
+
+
+	 position:absolute;
+    bottom: 0;
+    right: 0;
+}
 /*
 http://paletton.com/#uid=53g0y0kjCJ+8WWveQQDnOCBsNvZ
 */
