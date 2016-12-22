@@ -1,4 +1,3 @@
 TO DO
-Add project descriptions
-Redo bio
+
 Add logo
