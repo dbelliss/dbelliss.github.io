@@ -1528,10 +1528,6 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		#main article#projects {
-			width: 80rem;
-		}
-
 			#main article.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
@@ -1643,4 +1639,16 @@ input, select, textarea {
 
 		.workExperience {
 			margin-bottom: 60px;
+		}
+
+				#main article#projects {
+			width: 80rem;
+		}
+
+		img.projectImage {
+			width: 80%;
+		}
+
+		img.projectPreview {
+			width: 30%;
 		}

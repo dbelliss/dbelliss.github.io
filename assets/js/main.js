@@ -295,7 +295,12 @@
 					$('<div class="close">Close</div>')
 						.appendTo($this)
 						.on('click', function() {
-							location.hash = '';
+							if (this.parentElement.classList.contains('projectArticle')) {
+								location.hash = "projects";
+							}
+							else {
+								location.hash = '';
+							}
 						});
 
 				// Prevent clicks from inside article from bubbling.
