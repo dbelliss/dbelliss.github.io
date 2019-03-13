@@ -13,6 +13,9 @@
 		$footer = $('#footer'),
 		$main = $('#main'),
 		$main_articles = $main.children('article');
+		$project_articles= $main.children('.projectArticle');
+		$left_buttons = $('.leftButton');
+		$right_buttons = $('.rightButton');
 
 	// Breakpoints.
 		breakpoints({
@@ -318,6 +321,53 @@
 						$main._hide(true);
 
 			});
+
+			$project_articles.each(function() {
+				var $this = $(this);
+				var idthing = this.id;
+				var images = $this.find("img");
+				var leftButton = $this.find('.leftButton');
+				var rightButton = $this.find('.rightButton');
+
+				var curImage = 0
+				var numImages = images.length;
+				var toggleImage = function(delta) {
+					console.log(idthing);
+					curImage = (curImage + delta) % numImages;
+					if (curImage < 0) {
+						curImage = numImages - 1;
+					}
+					console.log("Toggling to " + curImage);
+					for (var i = 0; i < numImages; i++) {
+						if (i !== curImage) {
+							images[i].style.display = "none"; 
+						}
+						else {
+							images[i].style.display = "block"; 
+						}
+					}
+				}
+				toggleImage(0);
+				console.log("Adding on clicks");
+				leftButton.on('click', function() {toggleImage(-1)});
+				rightButton.on('click', function() {toggleImage(1)});
+			})
+
+			// $left_buttons.each(function() {
+			// 	var $this = $(this);
+			// 	$this.on('click', function(event) {
+			// 		console.log("Left click");
+			// 	})
+			// 	console.log($this)
+			// })
+
+			// $right_buttons.each(function() {
+			// 	var $this = $(this);
+			// 	$this.on('click', function(event) {
+			// 		console.log("right click");
+			// 	})
+			// 	console.log($this)
+			// })
 
 			$window.on('keyup', function(event) {
 

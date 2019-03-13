@@ -1653,10 +1653,6 @@ input, select, textarea {
 		    box-sizing: border-box;
 		}
 
-		img.projectImage {
-			width: 80%;
-		}
-
 		.projectPreview:hover .magnifyingGlass {
 		  opacity: .8;
 		}
@@ -1700,3 +1696,84 @@ input, select, textarea {
 				width: 33.33333333%;
 			}
 		}
+
+		.projectDiv .projectArticleBtn {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		  background-color: #555;
+		  color: white;
+		  font-size: 16px;
+		  padding: 12px 24px;
+		  border: none;
+		  cursor: pointer;
+		  border-radius: 5px;
+		}
+
+		.projectDiv {
+			  position: relative;
+  				width: 100%;
+		}
+
+		div.projectDiv, img.projectImage{
+			width: 100%;
+			height: auto;
+		}
+
+		.projectDiv .projectArticleBtn {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		  background-color: #555;
+		  color: white;
+		  font-size: 16px;
+		  padding: 12px 24px;
+		  border: none;
+		  cursor: pointer;
+		  border-radius: 5px;
+		}
+
+		.leftButton {
+			position: absolute;
+			top: 50%;
+			left: 0%;
+			transform: translate(0%, -50%);
+			-ms-transform: translate(0%, -50%);
+			background-color: #555;
+			color: white;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+			padding: 0px 16px;
+			vertical-align: middle;
+		}
+
+		.rightButton {
+			position: absolute;
+			top: 50%;
+			right: 0%;
+			transform: translate(0%, -50%);
+			-ms-transform: translate(0%, -50%);
+			background-color: #555;
+			color: white;
+			font-size: 16px;
+			padding: 0px 16px;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+
+		.projectDiv .projectArticleBtn:hover {
+			background-color: black;
+		}
+
+		img.projectImage {
+			width: 100%;
+		}
+
+
