@@ -1774,6 +1774,23 @@ input, select, textarea {
 
 		img.projectImage {
 			width: 100%;
+			margin-bottom: 2em;
 		}
+
+		span.rightFloatText {
+				display: block;
+		}
+
+		@media (min-width: 768px) {
+			span.rightFloatText {
+				float: right;
+			}
+		}
+
+		h3.workTitleAndDate {
+			margin-bottom: 2px;
+		}
+
+
 
 
